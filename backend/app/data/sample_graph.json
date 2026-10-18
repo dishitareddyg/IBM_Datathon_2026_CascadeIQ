@@ -1,0 +1,1659 @@
+{
+  "metadata": {
+    "crs": "EPSG:4326",
+    "bbox": [
+      12.75,
+      77.35,
+      13.16,
+      77.84
+    ],
+    "source": "BUNDLED_SYNTHETIC",
+    "provenance": {
+      "kind": "synthetic_sample",
+      "disclaimer": "Simplified synthetic landmark graph for Bengaluru Urban. Coordinates are approximate. Not an OSM extract and not for navigation.",
+      "excludes": "Bengaluru Rural (including Devanahalli / KIA), BBMP-only city limits"
+    }
+  },
+  "nodes": [
+    {
+      "node_id": "majestic",
+      "lat": 12.9767,
+      "lon": 77.5713,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "silk_board",
+      "lat": 12.9172,
+      "lon": 77.6234,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "hebbal",
+      "lat": 13.0351,
+      "lon": 77.5967,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "whitefield",
+      "lat": 12.9698,
+      "lon": 77.7499,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "electronic_city",
+      "lat": 12.8458,
+      "lon": 77.6643,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "koramangala",
+      "lat": 12.9279,
+      "lon": 77.6271,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "indiranagar",
+      "lat": 12.9784,
+      "lon": 77.6408,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "yelahanka",
+      "lat": 13.1007,
+      "lon": 77.5963,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "marathahalli",
+      "lat": 12.9591,
+      "lon": 77.7009,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "jp_nagar",
+      "lat": 12.9102,
+      "lon": 77.5826,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "richmond_circle",
+      "lat": 12.9641,
+      "lon": 77.5984,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "hsr_layout",
+      "lat": 12.9116,
+      "lon": 77.6446,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "jayanagar",
+      "lat": 12.9299,
+      "lon": 77.5826,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "rajajinagar",
+      "lat": 12.9952,
+      "lon": 77.5524,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "banashankari",
+      "lat": 12.9256,
+      "lon": 77.5468,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "bommanahalli",
+      "lat": 12.8904,
+      "lon": 77.6359,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "whitefield_hub",
+      "lat": 12.9806,
+      "lon": 77.7301,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "kr_puram",
+      "lat": 13.0003,
+      "lon": 77.6972,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "hennur",
+      "lat": 13.0333,
+      "lon": 77.6327,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "btm_layout",
+      "lat": 12.9165,
+      "lon": 77.6101,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "domlur",
+      "lat": 12.9603,
+      "lon": 77.6391,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "mg_road",
+      "lat": 12.9754,
+      "lon": 77.606,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "nagawara",
+      "lat": 13.0441,
+      "lon": 77.6202,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "tumkur_road",
+      "lat": 13.05,
+      "lon": 77.552,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "hosur_road",
+      "lat": 12.87,
+      "lon": 77.65,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "old_airport_rd",
+      "lat": 12.9652,
+      "lon": 77.6494,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "bellandur",
+      "lat": 12.9254,
+      "lon": 77.6699,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "sarjapur",
+      "lat": 12.8622,
+      "lon": 77.7128,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "bannerghatta_rd",
+      "lat": 12.8748,
+      "lon": 77.5978,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "ulsoor",
+      "lat": 12.9809,
+      "lon": 77.6209,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "shivajinagar",
+      "lat": 12.9858,
+      "lon": 77.5999,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "frazer_town",
+      "lat": 12.9902,
+      "lon": 77.6177,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "cox_town",
+      "lat": 13.0012,
+      "lon": 77.607,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "banaswadi",
+      "lat": 13.0101,
+      "lon": 77.6436,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "ramamurthy_nagar",
+      "lat": 13.0052,
+      "lon": 77.6671,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "mahadevapura",
+      "lat": 12.993,
+      "lon": 77.7119,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "varthur",
+      "lat": 12.9387,
+      "lon": 77.7411,
+      "node_type": "intersection",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "victoria_hosp",
+      "lat": 12.9612,
+      "lon": 77.5726,
+      "node_type": "hospital",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "manipal_hosp",
+      "lat": 12.9399,
+      "lon": 77.618,
+      "node_type": "hospital",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "fortis_banner",
+      "lat": 12.8748,
+      "lon": 77.5978,
+      "node_type": "hospital",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "apollo_hosp",
+      "lat": 12.9263,
+      "lon": 77.5985,
+      "node_type": "hospital",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "nimhans",
+      "lat": 12.9387,
+      "lon": 77.5966,
+      "node_type": "hospital",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "st_johns",
+      "lat": 12.9256,
+      "lon": 77.6242,
+      "node_type": "hospital",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "sakra_world",
+      "lat": 12.9591,
+      "lon": 77.7009,
+      "node_type": "hospital",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    },
+    {
+      "node_id": "ms_ramaiah",
+      "lat": 12.993,
+      "lon": 77.5585,
+      "node_type": "hospital",
+      "metadata": {
+        "synthetic": true,
+        "value_kind": "synthetic"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "majestic_richmond_circle",
+      "source": "majestic",
+      "target": "richmond_circle",
+      "length_m": 3253.6,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "richmond_circle_majestic",
+      "source": "richmond_circle",
+      "target": "majestic",
+      "length_m": 3253.6,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "richmond_circle_koramangala",
+      "source": "richmond_circle",
+      "target": "koramangala",
+      "length_m": 5086.8,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "koramangala_richmond_circle",
+      "source": "koramangala",
+      "target": "richmond_circle",
+      "length_m": 5086.8,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "koramangala_silk_board",
+      "source": "koramangala",
+      "target": "silk_board",
+      "length_m": 1255.5,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "silk_board_koramangala",
+      "source": "silk_board",
+      "target": "koramangala",
+      "length_m": 1255.5,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "silk_board_electronic_city",
+      "source": "silk_board",
+      "target": "electronic_city",
+      "length_m": 9093.3,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "electronic_city_silk_board",
+      "source": "electronic_city",
+      "target": "silk_board",
+      "length_m": 9093.3,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "silk_board_bommanahalli",
+      "source": "silk_board",
+      "target": "bommanahalli",
+      "length_m": 3273.5,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "bommanahalli_silk_board",
+      "source": "bommanahalli",
+      "target": "silk_board",
+      "length_m": 3273.5,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "bommanahalli_hsr_layout",
+      "source": "bommanahalli",
+      "target": "hsr_layout",
+      "length_m": 2538.9,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hsr_layout_bommanahalli",
+      "source": "hsr_layout",
+      "target": "bommanahalli",
+      "length_m": 2538.9,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hsr_layout_btm_layout",
+      "source": "hsr_layout",
+      "target": "btm_layout",
+      "length_m": 3778.7,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "btm_layout_hsr_layout",
+      "source": "btm_layout",
+      "target": "hsr_layout",
+      "length_m": 3778.7,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "btm_layout_jp_nagar",
+      "source": "btm_layout",
+      "target": "jp_nagar",
+      "length_m": 3061.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "jp_nagar_btm_layout",
+      "source": "jp_nagar",
+      "target": "btm_layout",
+      "length_m": 3061.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "jp_nagar_banashankari",
+      "source": "jp_nagar",
+      "target": "banashankari",
+      "length_m": 4241.1,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "banashankari_jp_nagar",
+      "source": "banashankari",
+      "target": "jp_nagar",
+      "length_m": 4241.1,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "banashankari_jayanagar",
+      "source": "banashankari",
+      "target": "jayanagar",
+      "length_m": 3909.2,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "jayanagar_banashankari",
+      "source": "jayanagar",
+      "target": "banashankari",
+      "length_m": 3909.2,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "jayanagar_apollo_hosp",
+      "source": "jayanagar",
+      "target": "apollo_hosp",
+      "length_m": 1769.1,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "apollo_hosp_jayanagar",
+      "source": "apollo_hosp",
+      "target": "jayanagar",
+      "length_m": 1769.1,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "apollo_hosp_nimhans",
+      "source": "apollo_hosp",
+      "target": "nimhans",
+      "length_m": 1394.1,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "nimhans_apollo_hosp",
+      "source": "nimhans",
+      "target": "apollo_hosp",
+      "length_m": 1394.1,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "nimhans_manipal_hosp",
+      "source": "nimhans",
+      "target": "manipal_hosp",
+      "length_m": 2323.0,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "manipal_hosp_nimhans",
+      "source": "manipal_hosp",
+      "target": "nimhans",
+      "length_m": 2323.0,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "manipal_hosp_st_johns",
+      "source": "manipal_hosp",
+      "target": "st_johns",
+      "length_m": 1726.2,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "st_johns_manipal_hosp",
+      "source": "st_johns",
+      "target": "manipal_hosp",
+      "length_m": 1726.2,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "st_johns_koramangala",
+      "source": "st_johns",
+      "target": "koramangala",
+      "length_m": 405.2,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "koramangala_st_johns",
+      "source": "koramangala",
+      "target": "st_johns",
+      "length_m": 405.2,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "majestic_rajajinagar",
+      "source": "majestic",
+      "target": "rajajinagar",
+      "length_m": 2902.6,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "rajajinagar_majestic",
+      "source": "rajajinagar",
+      "target": "majestic",
+      "length_m": 2902.6,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "rajajinagar_ms_ramaiah",
+      "source": "rajajinagar",
+      "target": "ms_ramaiah",
+      "length_m": 704.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "ms_ramaiah_rajajinagar",
+      "source": "ms_ramaiah",
+      "target": "rajajinagar",
+      "length_m": 704.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "ms_ramaiah_tumkur_road",
+      "source": "ms_ramaiah",
+      "target": "tumkur_road",
+      "length_m": 6377.1,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "tumkur_road_ms_ramaiah",
+      "source": "tumkur_road",
+      "target": "ms_ramaiah",
+      "length_m": 6377.1,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "tumkur_road_hebbal",
+      "source": "tumkur_road",
+      "target": "hebbal",
+      "length_m": 5117.8,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hebbal_tumkur_road",
+      "source": "hebbal",
+      "target": "tumkur_road",
+      "length_m": 5117.8,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hebbal_yelahanka",
+      "source": "hebbal",
+      "target": "yelahanka",
+      "length_m": 7294.5,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "yelahanka_hebbal",
+      "source": "yelahanka",
+      "target": "hebbal",
+      "length_m": 7294.5,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "majestic_mg_road",
+      "source": "majestic",
+      "target": "mg_road",
+      "length_m": 3762.7,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "mg_road_majestic",
+      "source": "mg_road",
+      "target": "majestic",
+      "length_m": 3762.7,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "mg_road_shivajinagar",
+      "source": "mg_road",
+      "target": "shivajinagar",
+      "length_m": 1332.0,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "shivajinagar_mg_road",
+      "source": "shivajinagar",
+      "target": "mg_road",
+      "length_m": 1332.0,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "shivajinagar_ulsoor",
+      "source": "shivajinagar",
+      "target": "ulsoor",
+      "length_m": 2339.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "ulsoor_shivajinagar",
+      "source": "ulsoor",
+      "target": "shivajinagar",
+      "length_m": 2339.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "ulsoor_indiranagar",
+      "source": "ulsoor",
+      "target": "indiranagar",
+      "length_m": 2174.1,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "indiranagar_ulsoor",
+      "source": "indiranagar",
+      "target": "ulsoor",
+      "length_m": 2174.1,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "indiranagar_domlur",
+      "source": "indiranagar",
+      "target": "domlur",
+      "length_m": 2021.0,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "domlur_indiranagar",
+      "source": "domlur",
+      "target": "indiranagar",
+      "length_m": 2021.0,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "domlur_old_airport_rd",
+      "source": "domlur",
+      "target": "old_airport_rd",
+      "length_m": 1242.0,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "old_airport_rd_domlur",
+      "source": "old_airport_rd",
+      "target": "domlur",
+      "length_m": 1242.0,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "old_airport_rd_marathahalli",
+      "source": "old_airport_rd",
+      "target": "marathahalli",
+      "length_m": 5621.7,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "marathahalli_old_airport_rd",
+      "source": "marathahalli",
+      "target": "old_airport_rd",
+      "length_m": 5621.7,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "marathahalli_whitefield_hub",
+      "source": "marathahalli",
+      "target": "whitefield_hub",
+      "length_m": 3965.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "whitefield_hub_marathahalli",
+      "source": "whitefield_hub",
+      "target": "marathahalli",
+      "length_m": 3965.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "whitefield_hub_whitefield",
+      "source": "whitefield_hub",
+      "target": "whitefield",
+      "length_m": 2458.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "whitefield_whitefield_hub",
+      "source": "whitefield",
+      "target": "whitefield_hub",
+      "length_m": 2458.7,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "whitefield_varthur",
+      "source": "whitefield",
+      "target": "varthur",
+      "length_m": 3587.2,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "varthur_whitefield",
+      "source": "varthur",
+      "target": "whitefield",
+      "length_m": 3587.2,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "varthur_sarjapur",
+      "source": "varthur",
+      "target": "sarjapur",
+      "length_m": 9042.6,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "sarjapur_varthur",
+      "source": "sarjapur",
+      "target": "varthur",
+      "length_m": 9042.6,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hebbal_nagawara",
+      "source": "hebbal",
+      "target": "nagawara",
+      "length_m": 2735.3,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "nagawara_hebbal",
+      "source": "nagawara",
+      "target": "hebbal",
+      "length_m": 2735.3,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "nagawara_hennur",
+      "source": "nagawara",
+      "target": "hennur",
+      "length_m": 1809.9,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hennur_nagawara",
+      "source": "hennur",
+      "target": "nagawara",
+      "length_m": 1809.9,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hennur_banaswadi",
+      "source": "hennur",
+      "target": "banaswadi",
+      "length_m": 2837.1,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "banaswadi_hennur",
+      "source": "banaswadi",
+      "target": "hennur",
+      "length_m": 2837.1,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "banaswadi_ramamurthy_nagar",
+      "source": "banaswadi",
+      "target": "ramamurthy_nagar",
+      "length_m": 2603.7,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "ramamurthy_nagar_banaswadi",
+      "source": "ramamurthy_nagar",
+      "target": "banaswadi",
+      "length_m": 2603.7,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "ramamurthy_nagar_kr_puram",
+      "source": "ramamurthy_nagar",
+      "target": "kr_puram",
+      "length_m": 3306.4,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "kr_puram_ramamurthy_nagar",
+      "source": "kr_puram",
+      "target": "ramamurthy_nagar",
+      "length_m": 3306.4,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "kr_puram_mahadevapura",
+      "source": "kr_puram",
+      "target": "mahadevapura",
+      "length_m": 1787.6,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "mahadevapura_kr_puram",
+      "source": "mahadevapura",
+      "target": "kr_puram",
+      "length_m": 1787.6,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "mahadevapura_whitefield",
+      "source": "mahadevapura",
+      "target": "whitefield",
+      "length_m": 4858.8,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "whitefield_mahadevapura",
+      "source": "whitefield",
+      "target": "mahadevapura",
+      "length_m": 4858.8,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hebbal_frazer_town",
+      "source": "hebbal",
+      "target": "frazer_town",
+      "length_m": 5486.6,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "frazer_town_hebbal",
+      "source": "frazer_town",
+      "target": "hebbal",
+      "length_m": 5486.6,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "frazer_town_cox_town",
+      "source": "frazer_town",
+      "target": "cox_town",
+      "length_m": 1685.3,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "cox_town_frazer_town",
+      "source": "cox_town",
+      "target": "frazer_town",
+      "length_m": 1685.3,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "cox_town_mg_road",
+      "source": "cox_town",
+      "target": "mg_road",
+      "length_m": 2870.9,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "mg_road_cox_town",
+      "source": "mg_road",
+      "target": "cox_town",
+      "length_m": 2870.9,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "majestic_victoria_hosp",
+      "source": "majestic",
+      "target": "victoria_hosp",
+      "length_m": 1729.3,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "victoria_hosp_majestic",
+      "source": "victoria_hosp",
+      "target": "majestic",
+      "length_m": 1729.3,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "koramangala_manipal_hosp",
+      "source": "koramangala",
+      "target": "manipal_hosp",
+      "length_m": 1659.2,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "manipal_hosp_koramangala",
+      "source": "manipal_hosp",
+      "target": "koramangala",
+      "length_m": 1659.2,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "bannerghatta_rd_fortis_banner",
+      "source": "bannerghatta_rd",
+      "target": "fortis_banner",
+      "length_m": 0.0,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "fortis_banner_bannerghatta_rd",
+      "source": "fortis_banner",
+      "target": "bannerghatta_rd",
+      "length_m": 0.0,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "jp_nagar_bannerghatta_rd",
+      "source": "jp_nagar",
+      "target": "bannerghatta_rd",
+      "length_m": 4267.2,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "bannerghatta_rd_jp_nagar",
+      "source": "bannerghatta_rd",
+      "target": "jp_nagar",
+      "length_m": 4267.2,
+      "road_type": "primary",
+      "status": "OPEN",
+      "speed_kmh": 50.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "marathahalli_sakra_world",
+      "source": "marathahalli",
+      "target": "sakra_world",
+      "length_m": 0.0,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "sakra_world_marathahalli",
+      "source": "sakra_world",
+      "target": "marathahalli",
+      "length_m": 0.0,
+      "road_type": "hospital",
+      "status": "OPEN",
+      "speed_kmh": 15.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "electronic_city_hosur_road",
+      "source": "electronic_city",
+      "target": "hosur_road",
+      "length_m": 3105.5,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hosur_road_electronic_city",
+      "source": "hosur_road",
+      "target": "electronic_city",
+      "length_m": 3105.5,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hosur_road_silk_board",
+      "source": "hosur_road",
+      "target": "silk_board",
+      "length_m": 5988.2,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "silk_board_hosur_road",
+      "source": "silk_board",
+      "target": "hosur_road",
+      "length_m": 5988.2,
+      "road_type": "trunk",
+      "status": "OPEN",
+      "speed_kmh": 60.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "indiranagar_frazer_town",
+      "source": "indiranagar",
+      "target": "frazer_town",
+      "length_m": 2826.0,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "frazer_town_indiranagar",
+      "source": "frazer_town",
+      "target": "indiranagar",
+      "length_m": 2826.0,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "shivajinagar_victoria_hosp",
+      "source": "shivajinagar",
+      "target": "victoria_hosp",
+      "length_m": 4029.0,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "victoria_hosp_shivajinagar",
+      "source": "victoria_hosp",
+      "target": "shivajinagar",
+      "length_m": 4029.0,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "bellandur_marathahalli",
+      "source": "bellandur",
+      "target": "marathahalli",
+      "length_m": 5032.7,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "marathahalli_bellandur",
+      "source": "marathahalli",
+      "target": "bellandur",
+      "length_m": 5032.7,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "bellandur_sarjapur",
+      "source": "bellandur",
+      "target": "sarjapur",
+      "length_m": 8426.6,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "sarjapur_bellandur",
+      "source": "sarjapur",
+      "target": "bellandur",
+      "length_m": 8426.6,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "koramangala_bellandur",
+      "source": "koramangala",
+      "target": "bellandur",
+      "length_m": 4646.9,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "bellandur_koramangala",
+      "source": "bellandur",
+      "target": "koramangala",
+      "length_m": 4646.9,
+      "road_type": "secondary",
+      "status": "OPEN",
+      "speed_kmh": 40.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "hsr_layout_bellandur",
+      "source": "hsr_layout",
+      "target": "bellandur",
+      "length_m": 3142.2,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    },
+    {
+      "edge_id": "bellandur_hsr_layout",
+      "source": "bellandur",
+      "target": "hsr_layout",
+      "length_m": 3142.2,
+      "road_type": "residential",
+      "status": "OPEN",
+      "speed_kmh": 20.0,
+      "oneway": false,
+      "flood_risk": 0.0
+    }
+  ]
+}
