@@ -1,0 +1,238 @@
+/**
+ * CascadeIQ Global Design System
+ * Civic-tech / emergency-operations aesthetic
+ * Dark mode first, high-contrast accessible design
+ */
+
+/* ── Google Font ──────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ── CSS Custom Properties ────────────────────────────────────────────────────── */
+:root {
+  /* Core palette - deep navy/slate dark theme */
+  --color-bg-base: #0b0f1a;
+  --color-bg-surface: #111827;
+  --color-bg-elevated: #1a2236;
+  --color-bg-overlay: #1f2d45;
+  --color-bg-hover: #243352;
+
+  /* Borders */
+  --color-border: #2a3a56;
+  --color-border-strong: #3a4f72;
+
+  /* Text */
+  --color-text-primary: #e2e8f0;
+  --color-text-secondary: #8fa8c8;
+  --color-text-muted: #4a6080;
+  --color-text-inverted: #0b0f1a;
+
+  /* Brand accent */
+  --color-accent: #3b82f6;
+  --color-accent-light: #60a5fa;
+  --color-accent-dark: #1d4ed8;
+
+  /* Status colours */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-critical: #7c3aed;
+  --color-info: #06b6d4;
+
+  /* Road status */
+  --color-road-open: #22c55e;
+  --color-road-degraded: #f59e0b;
+  --color-road-closed: #ef4444;
+
+  /* Warning severity */
+  --color-warn-watch: #3b82f6;
+  --color-warn-warning: #f59e0b;
+  --color-warn-severe: #ef4444;
+  --color-warn-extreme: #7c3aed;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.5), 0 2px 4px rgba(0,0,0,0.3);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.5), 0 4px 6px rgba(0,0,0,0.4);
+  --shadow-accent: 0 0 20px rgba(59,130,246,0.15);
+
+  /* Transitions */
+  --transition-fast: 120ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow: 350ms ease;
+
+  /* Layout */
+  --sidebar-width: 340px;
+  --topbar-height: 52px;
+  --panel-width: 380px;
+}
+
+/* ── Reset & Base ─────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-base);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── Typography ───────────────────────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--color-text-primary);
+}
+
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 0.95rem; }
+
+p {
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+code, pre, .mono {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+}
+
+a {
+  color: var(--color-accent-light);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ── Scrollbar styling ────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ── Utility classes ──────────────────────────────────────────────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Focus styles for accessibility ───────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* ── Leaflet overrides ────────────────────────────────────────────────────────── */
+.leaflet-container {
+  background: #0d1526 !important;
+  font-family: var(--font-sans) !important;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius-md) !important;
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+  background: var(--color-bg-elevated) !important;
+  color: var(--color-text-primary) !important;
+  border-bottom: 1px solid var(--color-border) !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: var(--color-bg-hover) !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--color-bg-elevated) !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+.leaflet-popup-tip {
+  background: var(--color-bg-elevated) !important;
+}
+
+.leaflet-popup-close-button {
+  color: var(--color-text-secondary) !important;
+}
+
+/* ── Recharts overrides ───────────────────────────────────────────────────────── */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: var(--color-bg-elevated) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius-md) !important;
+}

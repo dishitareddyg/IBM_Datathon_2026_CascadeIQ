@@ -1,0 +1,223 @@
+/* Simulation controls panel styles */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.form-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.form-select,
+.form-input {
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-bg-base);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-primary);
+  font-size: 0.8rem;
+  font-family: var(--font-sans);
+  transition: border-color var(--transition-fast);
+  appearance: none;
+}
+
+.form-select:focus,
+.form-input:focus {
+  border-color: var(--color-accent);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.15);
+}
+
+.form-select:disabled,
+.form-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.form-input[type="range"] {
+  padding: 4px 0;
+  cursor: pointer;
+  accent-color: var(--color-accent);
+}
+
+.form-hint {
+  font-size: 0.65rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+.range-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.range-value {
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  color: var(--color-accent-light);
+  min-width: 32px;
+  text-align: right;
+}
+
+/* Scenario card */
+.scenario-card {
+  padding: var(--space-3);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.scenario-card:hover {
+  border-color: var(--color-border-strong);
+  background: var(--color-bg-overlay);
+}
+
+.scenario-card--selected {
+  border-color: var(--color-accent);
+  background: rgba(59,130,246,0.07);
+}
+
+.scenario-card__name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-1);
+}
+
+.scenario-card__desc {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+  margin-bottom: var(--space-2);
+}
+
+.scenario-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.scenario-tag {
+  font-size: 0.6rem;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--color-bg-hover);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+}
+
+/* Action buttons */
+.btn-group {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.btn {
+  flex: 1;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn--primary {
+  background: var(--color-accent);
+  color: white;
+}
+
+.btn--primary:hover:not(:disabled) {
+  background: var(--color-accent-dark);
+}
+
+.btn--secondary {
+  background: transparent;
+  color: var(--color-text-secondary);
+  border-color: var(--color-border);
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background: var(--color-bg-elevated);
+  color: var(--color-text-primary);
+}
+
+.btn--danger {
+  background: transparent;
+  color: var(--color-danger);
+  border-color: rgba(239,68,68,0.3);
+}
+
+.btn--danger:hover:not(:disabled) {
+  background: rgba(239,68,68,0.08);
+}
+
+/* Spinner in button */
+.btn-spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Mode toggle */
+.mode-toggle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: var(--color-bg-base);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 2px;
+}
+
+.mode-btn {
+  padding: var(--space-2);
+  border: none;
+  border-radius: calc(var(--radius-md) - 2px);
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  background: transparent;
+  color: var(--color-text-muted);
+  transition: all var(--transition-fast);
+}
+
+.mode-btn--active {
+  background: var(--color-bg-elevated);
+  color: var(--color-text-primary);
+}
